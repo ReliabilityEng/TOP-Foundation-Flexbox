@@ -11,26 +11,26 @@ body {
     color: white;
 }
 
-/* General Padding */
-.header, .content, .footer {
-    flex: 1 1 auto;
-    padding: 0px 200px;
-}
-
 .header {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
-.header .heading-navigation {
+.header .container {
+    flex: 0 1 1280px;
+    margin-bottom: 50px;
+}
+
+.header .container .heading-navigation {
     display: flex;
     justify-content: space-between;
     font-size: 24px;
     font-weight: bold;
     margin: 16px 0px;
+    align-self: stretch;
 }
 
-.header .heading-navigation ul {
+.header .container .heading-navigation ul {
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -38,35 +38,34 @@ body {
     gap: 32px;
 }
 
-.header .heading-navigation ul a {
+.header .container .heading-navigation ul a {
     text-decoration: none;
     color: white;
     font-weight: 100;
     font-size: 18px;
 }
 
-.header .heading-content {
+.header .container .heading-content {
     display: flex;
-    align-items: flex-start;
+    gap: 40px;
 }
 
-.header .heading-content .text {
-    border: white dotted;
+.header .container .heading-content .text {
     flex: 1 1 auto;
     align-self: stretch;
 }
 
-.header .heading-content .text h1 {
+.header .container .heading-content .text h1 {
     font-size: 48px;
     margin: 0px;
 }
 
-.header .heading-content .text p {
+.header .container .heading-content .text p {
     font-size: 18px;
     margin: 16px 0px;
 }
 
-.header .heading-content .text button {
+.header .container .heading-content .text button {
     background-color: #3882F6;
     border: 0;
     border-radius: 8px;
@@ -76,10 +75,8 @@ body {
     color: white;
 }
 
-.header .heading-content .image {
-    border: white dotted;
-    flex: 1 0 500px;
+.header .container .heading-content .image img{
     align-self: stretch;
     text-align: center;
-    background-color: grey;
+    max-width: 100%;
 }
