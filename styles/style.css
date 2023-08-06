@@ -140,3 +140,42 @@ body {
     color: #1F2937;
 }
 
+
+.contact-card {
+    background-color: #3882F6;
+    border-radius: 20px;
+    margin: 100px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-content {
+    color: white;
+}
+
+.contact-content h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.contact-content p {
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.contact-card button {
+    background-color: #3882F6;
+    border: white solid 3px;
+    border-radius: 15px;
+    color: white;
+    font-size: 24px;
+    padding: 10px 30px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 28px;
+    padding: 40px;
+}
