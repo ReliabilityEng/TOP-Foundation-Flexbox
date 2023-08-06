@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Heading and Footer Color Theme */
+.header, .heading, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+/* General Padding */
+.header, .content, .footer {
+    flex: 1 1 auto;
+    padding: 0px 200px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .heading-navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 16px 0px;
+}
+
+.header .heading-navigation ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+}
+
+.header .heading-navigation ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.header .heading-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header .heading-content .text {
+    border: white dotted;
+    flex: 1 1 auto;
+    align-self: stretch;
+}
+
+.header .heading-content .text h1 {
+    font-size: 48px;
+    margin: 0px;
+}
+
+.header .heading-content .text p {
+    font-size: 18px;
+    margin: 16px 0px;
+}
+
+.header .heading-content .text button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.header .heading-content .image {
+    border: white dotted;
+    flex: 1 0 500px;
+    align-self: stretch;
+    text-align: center;
+    background-color: grey;
+}
