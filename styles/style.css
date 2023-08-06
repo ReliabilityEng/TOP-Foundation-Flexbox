@@ -127,3 +127,16 @@ body {
     border: #3882F6 solid;
     border-radius: 28px;
 }
+
+.quotation-container{
+    background-color: #E5E7EB;
+}
+
+.quotation-content p{
+    margin: 120px 0px;
+    font-size: 40px;
+    line-height: 1.5em;
+    font-style: italic;
+    color: #1F2937;
+}
+
